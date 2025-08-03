@@ -3,7 +3,7 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <remote fetch="https://github.com/oppo-source" name="origin"/>
-  <project remote="origin" name="android_kernel_common_oppo_sm8650" path="kernel_platform/common" revision="oppo/oppo/sm8650_v_15.0.0_find_x7_ultra">
+  <project remote="origin" name="android_kernel_common_oppo_sm8650" path="kernel_platform/common" revision="oppo/sm8650_v_15.0.0_find_x7_ultra">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
   <project remote="origin" name="android_kernel_oppo_sm8650" path="kernel_platform/msm-kernel" revision="oppo/sm8650_v_15.0.0_find_x7_ultra">
