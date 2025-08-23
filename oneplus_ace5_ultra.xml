@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/m1w22" name="origin"/>
-  <默认 remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="origin" name="android_kernel_oneplus_mt6990" path="kernel_platform/common" revision="oneplus/mt6991_v_15.0.2_ace5_ultralz">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
